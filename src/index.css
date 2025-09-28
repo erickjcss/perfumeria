@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.gal{
+    background-image: url("img/galery.png")
+}
+.portada{
+    background-image: url("img/perfumes/portada.png");
+}
+.gr{
+   @media (min-width:400px) {
+  
+    width: 1000px;
+   }
+
+    }
+.fotoCa{
+    position: relative;
+    
+    @media (min-width:600px){
+         left: 50px;
+    }
+    @media (min-width:692px){
+         left: 10px;
+    }
+}
+.ancho{
+    
+}
+.options{
+width: 20px;;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
