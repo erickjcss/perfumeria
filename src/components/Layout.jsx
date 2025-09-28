@@ -268,7 +268,7 @@ useEffect(() => {
   
   
 
-      <h2 className='text-2xl pt-4 '>No presenta conexión a Internet en estos momentos</h2>
+      <h2 className='text-2xl pt-4 '>No presenta conexión a Internet en estos momentos o tenemos problemas con el servidor</h2>
         </div>
     </div>
     </div>
