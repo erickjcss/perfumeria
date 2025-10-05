@@ -165,7 +165,7 @@ const ordenarr=()=>{
 
 }
   const eliminarCambios=()=>{
-    setGeneroV("");
+    setGeneroV([]);
     setPrecioMax("");
     setPrecioMin("");
     return;
