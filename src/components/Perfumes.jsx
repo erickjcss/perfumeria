@@ -147,11 +147,11 @@ const handleSubmit = (e) => {
           perfumes.setPerfumes(perfumesAux)
     //calidadV
     
-    alert("✅ Evento recibido");
-    alert("Formulario enviado");
+    
+    toast.success("Filtros aplicados correctamente");
     setOrdenar(false);
   } catch (error) {
-    alert("❌ Error en handleSubmit:", error);
+    toast.error("❌ Error en el servidor:", error);
   }
 
 };
@@ -164,6 +164,12 @@ const eliminarFiltros=()=>{
 const ordenarr=()=>{
 
 }
+  const eliminarCambios=()=>{
+    setGeneroV("");
+    setPrecioMax("");
+    setPrecioMin("");
+    return;
+  }
   return (
     <div> 
     {!ordenar&&(
@@ -278,7 +284,7 @@ const ordenarr=()=>{
            </ul>
           
            <div className='mt-4 flex justify-around'>
-            <input type='button' value="Eliminar cambios" className=' bg-zinc-300   p-1 hover:text-white cursor-pointer '></input>
+            <input type='button' value="Eliminar cambios" className=' bg-zinc-300   p-1 hover:text-white cursor-pointer ' onClick={()=>eliminarCambios()}></input>
             <input type='submit' value="Aplicar cambios" className=' bg-indigo-500 p-1 hover:text-white cursor-pointer' onClick={handleSubmit}></input>
 
            </div>
