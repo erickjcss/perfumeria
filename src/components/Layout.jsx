@@ -295,7 +295,7 @@ useEffect(() => {
   
     {perfumes && perfumes.length > 0 && perfumes.map((perfume, index) => (
       <div className=' h-40 min-[400px]:h-44    min-[500px]:h-52 min-[692px]:h-60   mb-4 min-[800px]:mb-8   '>
-      <article onClick={()=>alert("Ja")}
+      <article
         key={`perfume-${index}`} 
         className="relative   w-[60vw] min-[400px]:min-w-[250px] max-[690px]:min-h-[150px]   min-[500px]:w-[30vw] min-[600px]:w-[45vw] min-[692px]:w-[35vw]   mb-4    min-[700px]:w-[35vw] mx-auto min-[692px]:mx-0 max-[700px]:right-[20px]  hover:border-gray-200 cursor-pointer bg-white overflow-hidden max-[500px]:h-[10rem] max-[400px]:h-[10rem] h-[12rem] min-[693px]:h-60   "
       >
