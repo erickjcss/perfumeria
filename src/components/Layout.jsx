@@ -290,6 +290,7 @@ useEffect(() => {
          <section className='populares ml-auto mr-auto 2 min-[700px]:w-[48vw] min-[700px]:mx-0 '>
         <div className='min-[700px]:w-[80vw] min-[700px]:mx-auto'>  
                <h1 className='
+                   cursor-pointer
                 max-w-[220px] 
                 min-[700px]:max-w-[300px] 
                 mb-2 
@@ -297,7 +298,7 @@ useEffect(() => {
                 min-[700px]:text-2xl 
                 mx-auto 
                 min-[1024px]:text-2xl 
-                bg-green-600 
+                bg-green-200 
                 text-white 
                 rounded-lg 
                 p-4 
