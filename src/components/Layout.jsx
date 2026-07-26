@@ -288,15 +288,11 @@ useEffect(() => {
 
    <div className='  h-[80vh]'>
          <section className='populares ml-auto mr-auto 2 min-[700px]:w-[48vw] min-[700px]:mx-0 '>
-        <div className='min-[700px]:w-[80vw] min-[700px]:mx-auto'>
-            <div className='flex items-center mb-4'>
-                <img src='https://i.postimg.cc/RZY048t9/foto-promocional.jpg' alt='Perfume Icon' className='w-6 h-6 mr-2' />
+        <div className='min-[700px]:w-[80vw] min-[700px]:mx-auto'>  
                 <h1 className='max-w-[220px] min-[700px]:max-w-[300px] text-base min-[700px]:text-2xl min-[1024px]:text-2xl bg-slate-100 relative rounded-md p-2'>
                     Perfumes
                 </h1>
-            </div>
         </div>
-      
       <div>
         <Perfumes setPerfumes={setPerfumes} setPerfumesAuxAux={setPerfumesAuxAux} perfumes={perfumes} perfumesAuxAux={perfumesAuxAux} />  
  <div className="grid grid-cols-1 min-[692px]:grid-cols-2 gap-6 min-[783px]:gap-6 min-[500px]:w-[90vw] min-[783px]:w-[80vw] mx-auto  w-[55vw]  ">
