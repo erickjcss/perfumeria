@@ -349,7 +349,7 @@ useEffect(() => {
           className="h-40 object-contain mx-auto relative top-4" 
         />
       </div>
-    )){/* } */}
+    {/* } */}
   </div>
 )}          
           
