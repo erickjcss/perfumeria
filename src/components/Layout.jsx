@@ -297,14 +297,13 @@ useEffect(() => {
                 min-[700px]:text-2xl 
                 mx-auto 
                 min-[1024px]:text-2xl 
-                bg-gradient-to-r from-blue-400 to-purple-500 
-                text-white 
+                bg-gray-100 
+                text-gray-800 
                 rounded-lg 
                 p-4 
-                shadow-lg 
+                border border-gray-300 
                 text-center
-            '>
-                Perfumes
+            '>                Perfumes
             </h1>
         </div>
       <div>
