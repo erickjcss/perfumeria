@@ -294,10 +294,10 @@ useEffect(() => {
                 min-[700px]:max-w-[300px] 
                 mb-2 
                 text-base 
-                min-[700px]:text-2xl 
+                min-[700px]:text-xl 
                 mx-auto 
-                min-[1024px]:text-2xl 
-                bg-gray-100 
+                min-[1024px]:text-xl 
+                bg-blue-600
                 text-gray-800 
                 rounded-lg 
                 p-4 
