@@ -41,3 +41,24 @@ ul{
     list-style: none;
     text-decoration: none;
 }
+
+
+.populares {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Cambia esto a la fuente que prefieras */
+    font-weight: bold;
+    color: #333; /* Color oscuro para el texto */
+}
+.populares:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
