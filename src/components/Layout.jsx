@@ -378,7 +378,7 @@ useEffect(() => {
                 <span className=' z-[70]  absolute right-0  self-center text-[0.5rem] min-[660px]:text-[0.6rem] min-[800px]:text-xs min-[800px]:w-28 w-20 '>{perfume.precio} {perfume.precioDolar?'usd':'cup'} {perfume.cantidad} </span>
                 </div>
         </div>
-    ))}
+    }
   </div>
 </div>
         </section>
