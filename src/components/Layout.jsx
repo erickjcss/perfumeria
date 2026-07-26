@@ -298,7 +298,7 @@ useEffect(() => {
                 min-[700px]:text-2xl 
                 mx-auto 
                 min-[1024px]:text-2xl 
-                bg-green-800 
+                bg-gray-400
                 text-white 
                 rounded-lg 
                 p-4 
