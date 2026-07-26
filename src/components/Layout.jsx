@@ -285,7 +285,8 @@ useEffect(() => {
 
      
         <div className='z-10 mt-6    w-[80vw]  ml-auto mr-auto '>{(tocar === true || inputValue !== ""||5==5) ?(
-<div className='h-[80vh]'>
+
+    <div className='h-[80vh]'>
     <section className='populares mx-auto min-[700px]:w-[48vw]'>
         <div className='min-[700px]:w-[80vw] min-[700px]:mx-auto'>
             <div className='flex items-center mb-4'>
@@ -295,8 +296,7 @@ useEffect(() => {
                 </h1>
             </div>
         </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
-       
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>   
         </div>
     </section>
 </div>
