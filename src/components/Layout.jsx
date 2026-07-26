@@ -45,7 +45,7 @@ const [currentPerfumeIndex, setCurrentPerfumeIndex] = useState(0);
   const [auxiliar,setAuxiliar]=useState();
   const [perfumesAuxAux,setPerfumesAuxAux]=useState();
   const [busqueda,setBusqueda]=useState();
-  const [nombreFotoReal,setNombreFotoReal]=useState();
+  const [nombreFotoReal,setNombreFotoReal]=useState("Ver foto real");
    function getCookie(name) {
         let cookieValue = null;
         if (document.cookie && document.cookie !== '') {
@@ -312,7 +312,7 @@ useEffect(() => {
       [index]: !prev[index]
     }))}>
                 <h3 className="italic text-slate-700 bg-galery h-12 bg-cover bg-no-repeat text-sm w-[130px] left-[.8rem] z-[1100] min-[300px]:left-[7vw] min-[400px]:left-[1.8rem]  min-[500px]:left-[1rem]  min-[700px]:left-[1.8rem] min-[692px]:left-[.5rem] top-1 relative min-[792px]:left-[5.4vw] min-[840px]:left-[7vw] min-[900px]:left-[9vw] min-[1000px]:left-[10vw] min-[1050px]:left-[11.5vw] max-[500px]:text-[0.6rem]  ">
-                    {nombreFotoReal} 
+                    {fotoReal?"Ver fotos reales":"Ver fotos de catálogo"} 
                 </h3>
                 <img src="img/galery.png" className='h-12 object-top self-start relative left-[0.4rem] bottom-[.7rem] z-[1000] max-[424px]:left-[0.2rem] ' alt="" />
                 <div className='absolute right-0 w-16' onClick={() => setFotoReal(!(fotoReal[index]))}></div>
