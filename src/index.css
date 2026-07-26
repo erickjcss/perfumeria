@@ -45,13 +45,9 @@ ul{
 
 .populares {
     background: linear-gradient(to right, #f8f9fa, #e9ecef);
-    border-radius: 10px;
-   
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
-
-
-
 h1 {
     font-family: 'Montserrat', sans-serif; /* Cambia esto a la fuente que prefieras */
     font-weight: bold;
