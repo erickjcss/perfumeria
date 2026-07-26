@@ -332,7 +332,7 @@ useEffect(() => {
           className={`h-48 min-[600px]:h-32 min-[693px]:h-48 min-w-[282px] z-[700] bottom-4 relative max-[692px]:bottom-[10px] max-[601px]:bottom-[10px]   max-[400px]:bottom-[30px] object-contain    w-[800px] max-[600px]:bottom-[10px] max-[500px]:bottom-[30px] max-[600px]:h-32 min-[680px]:z-[1200] inline-block fotoCa ${perfume.diminutivo+'F'}`}
         />
       </div>
-    )){/* } */}
+    {/* } */}
   </div>
 )}
 
