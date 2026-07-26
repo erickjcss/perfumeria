@@ -294,18 +294,18 @@ useEffect(() => {
                 min-[700px]:max-w-[300px] 
                 mb-2 
                 text-base 
-                min-[700px]:text-xl 
+                min-[700px]:text-2xl 
                 mx-auto 
-                min-[1024px]:text-xl 
-                bg-blue-600
-                text-gray-800 
+                min-[1024px]:text-2xl 
+                bg-blue-600 
+                text-white 
                 rounded-lg 
                 p-4 
-                border border-gray-300 
+                shadow-md 
                 text-center
-            '>                Perfumes
-            </h1>
-        </div>
+            '>
+                Perfumes
+            </h1>        </div>
       <div>
         <Perfumes setPerfumes={setPerfumes} setPerfumesAuxAux={setPerfumesAuxAux} perfumes={perfumes} perfumesAuxAux={perfumesAuxAux} />  
  <div className="grid grid-cols-1 min-[692px]:grid-cols-2 gap-6 min-[783px]:gap-6 min-[500px]:w-[90vw] min-[783px]:w-[80vw] mx-auto  w-[55vw]  ">
