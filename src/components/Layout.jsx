@@ -310,7 +310,7 @@ useEffect(() => {
               <div className='flex items-start justify-between w-[80vw]'  onClick={() => setFotoReal(prev => ({
       ...prev,
       [index]: !prev[index]
-    }}>
+    }))}>
                 <h3 className="italic text-slate-700 bg-galery h-12 bg-cover bg-no-repeat text-sm w-[130px] left-[.8rem] z-[1100] min-[300px]:left-[7vw] min-[400px]:left-[1.8rem]  min-[500px]:left-[1rem]  min-[700px]:left-[1.8rem] min-[692px]:left-[.5rem] top-1 relative min-[792px]:left-[5.4vw] min-[840px]:left-[7vw] min-[900px]:left-[9vw] min-[1000px]:left-[10vw] min-[1050px]:left-[11.5vw] max-[500px]:text-[0.6rem]  ">
                     {nombreFotoReal} 
                 </h3>
