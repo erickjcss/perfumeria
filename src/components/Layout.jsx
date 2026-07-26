@@ -289,7 +289,23 @@ useEffect(() => {
    <div className='  h-[80vh]'>
          <section className='populares ml-auto mr-auto 2 min-[700px]:w-[48vw] min-[700px]:mx-0 '>
         <div className='min-[700px]:w-[80vw] min-[700px]:mx-auto'>  
-               <h1 className=' max-w-[220px]      min-[700px]:max-w-[300px]    mb-2 text-base min-[700px]:text-2xl mx-auto min-[1024px]:text-2xl bg-slate-100 relative '>Perfumes</h1>
+               <h1 className='
+                max-w-[220px] 
+                min-[700px]:max-w-[300px] 
+                mb-2 
+                text-base 
+                min-[700px]:text-2xl 
+                mx-auto 
+                min-[1024px]:text-2xl 
+                bg-gradient-to-r from-blue-400 to-purple-500 
+                text-white 
+                rounded-lg 
+                p-4 
+                shadow-lg 
+                text-center
+            '>
+                Perfumes
+            </h1>
         </div>
       <div>
         <Perfumes setPerfumes={setPerfumes} setPerfumesAuxAux={setPerfumesAuxAux} perfumes={perfumes} perfumesAuxAux={perfumesAuxAux} />  
